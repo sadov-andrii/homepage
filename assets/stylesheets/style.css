@@ -1,0 +1,25 @@
+.avatar-wrapper {
+    margin: 0 2em;
+  }
+
+.avatar {
+    padding: 1em;
+}
+
+@media only screen and (max-width: 1199px) {
+  .avatar {
+    max-width: 13rem;
+  }    
+}
+
+@media only screen and (max-width: 992px) {
+    .avatar {
+      max-width: 10rem;
+    }    
+  }
+
+@media only screen and (max-width: 767px) {
+    .avatar {
+        max-width: 15rem;
+      }  
+}
