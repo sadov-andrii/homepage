@@ -1,0 +1,47 @@
+.avatar-wrapper {
+    margin: 0 2em;
+  }
+
+.avatar {
+    padding: 1em;
+}
+
+@media only screen and (max-width: 1199px) {
+  .avatar {
+    max-width: 13rem;
+  }    
+}
+
+@media only screen and (max-width: 992px) {
+    .avatar {
+      max-width: 10rem;
+    }    
+  }
+
+@media only screen and (max-width: 767px) {
+    .avatar {
+        max-width: 15rem;
+      }  
+}
+
+.page {
+    background-color: rgb(246, 252, 222);
+    color: rgb(11, 11, 83);
+}
+
+h1, h2, h3 {
+    color:black;
+}
+
+.dislike, .like {
+    transition-property: color;
+    transition-duration: 2s;
+}
+
+.dislike:hover {
+    color:red;
+}
+
+.like:hover {
+    color:green;
+}
