@@ -45,3 +45,7 @@ h1, h2, h3 {
 .like:hover {
     color:green;
 }
+
+.twitter{
+    color: magenta;
+}
