@@ -1,9 +1,9 @@
 .avatar-wrapper {
-    margin: 0 2em;
-  }
+  margin: 0 2em;
+}
 
 .avatar {
-    padding: 1em;
+  padding: 1em;
 }
 
 @media only screen and (max-width: 1199px) {
@@ -13,15 +13,15 @@
 }
 
 @media only screen and (max-width: 992px) {
-    .avatar {
-      max-width: 10rem;
-    }    
-  }
+  .avatar {
+    max-width: 10rem;
+  }    
+}
 
 @media only screen and (max-width: 767px) {
-    .avatar {
-        max-width: 15rem;
-      }  
+  .avatar {
+    max-width: 15rem;
+  }  
 }
 
 .page {
@@ -30,22 +30,22 @@
 }
 
 h1, h2, h3 {
-    color:black;
+  color:black;
 }
 
 .dislike, .like {
-    transition-property: color;
-    transition-duration: 2s;
+  transition-property: color;
+  transition-duration: 2s;
 }
 
 .dislike:hover {
-    color:red;
+  color:red;
 }
 
 .like:hover {
-    color:green;
+  color:green;
 }
 
 .twitter{
-    color: magenta;
+  color: magenta;
 }
