@@ -9,43 +9,46 @@
 @media only screen and (max-width: 1199px) {
   .avatar {
     max-width: 13rem;
-  }    
+  }
 }
 
 @media only screen and (max-width: 992px) {
   .avatar {
     max-width: 10rem;
-  }    
+  }
 }
 
 @media only screen and (max-width: 767px) {
   .avatar {
     max-width: 15rem;
-  }  
+  }
 }
 
 .page {
-    background-color: rgb(246, 252, 222);
-    color: rgb(11, 11, 83);
+  background-color: rgb(246, 252, 222);
+  color: rgb(11, 11, 83);
 }
 
-h1, h2, h3 {
-  color:black;
+h1,
+h2,
+h3 {
+  color: black;
 }
 
-.dislike, .like {
+.dislike,
+.like {
   transition-property: color;
   transition-duration: 2s;
 }
 
 .dislike:hover {
-  color:red;
+  color: red;
 }
 
 .like:hover {
-  color:green;
+  color: green;
 }
 
-.twitter{
+.twitter {
   color: magenta;
 }
